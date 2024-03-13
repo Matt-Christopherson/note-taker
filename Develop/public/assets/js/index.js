@@ -73,15 +73,20 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
-  const newNote = {
-    title: noteTitle.value,
-    text: noteText.value
-  };
-  saveNote(newNote).then(() => {
-    getAndRenderNotes();
-    renderActiveNote();
-  });
+  try {
+    const newNote = {
+      title: noteTitle.value,
+      text: noteText.value
+    };
+    saveNote(newNote).then(() => {
+      getAndRenderNotes();
+      renderActiveNote();
+    });
+  } catch (error) {
+    console.error('An error occurred while saving the note:', error);
+  }
 };
+
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
