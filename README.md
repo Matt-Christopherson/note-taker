@@ -1,26 +1,10 @@
 # Note Taker
 ## Description
 This project allows you to write and save notes to better organize your thoughts and keep track of tasks you need to complete.
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
 ## Installation
 This application requires that you install Node.js.
 ## Usage
 Open server.js in an integrated terminal and type in "node server." CTRL + Click on the URL given by the terminal to open the web page. 
-## Credits
-N/A
-## Features
-N/A
-## Contributing
-N/A
-## Tests
-N/A
 ## Questions
 GitHub: https://github.com/matt-christopherson/
   
